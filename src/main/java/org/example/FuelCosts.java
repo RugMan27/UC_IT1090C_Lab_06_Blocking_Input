@@ -67,6 +67,7 @@ public class FuelCosts {
         costToDriveHundred = (100/carMPG)*pricePerGallon;
         tankRange = gallonsInTank * carMPG;
 
+        // output
         System.out.println("Cost to drive 100 miles: $" + costToDriveHundred);
         System.out.println("Range of current gas tank: " + tankRange + " Miles");
 
